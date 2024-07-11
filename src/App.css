@@ -1,0 +1,117 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap");
+
+@font-face {
+  font-family: "Playwrite ES Deco";
+  src: url("https://fonts.gstatic.com/s/playwriteesdeco/v1/ZgNWjAOnMoPH8Wx0AnZDXAERHRxUZU2-0fs.woff2")
+    format("woff2");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "galano";
+  src: url("/fonts/Galano Grotesque Thin.woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "galano";
+  src: url("/fonts/Galano Grotesque Extra Light.woff");
+  font-weight: 200;
+  /* src: url("/assets/fonts/Nexa V2 2020/OTF/NexaDemo-Light.otf") format('otf'); */
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque Light.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque Medium.woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque Semi Bold.woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque Semi Bold.woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque Bold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque Extra Bold.woff");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "galano grotesque";
+  src: url("/fonts/Galano Grotesque Heavy.woff");
+  font-weight: 900;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
