@@ -8,7 +8,7 @@ const RootPage = () => {
   const { isOpen, onClose, onOpen } = useDisclosure();
   return (
     <Box maxWidth={"1440px"} marginX={"auto"}>
-      <Grid
+      {/* <Grid
         templateAreas={`"header header"
                   "main main"
                   "footer footer"`}
@@ -28,7 +28,16 @@ const RootPage = () => {
         <GridItem area={"footer"} mt={{ base: "2.5rem", md: "3rem" }}>
           <Footer />
         </GridItem>
-      </Grid>
+      </Grid> */}
+      <Box>
+        <Header onOpen={onOpen} />
+
+        <Box as="main">
+          <Drawers isOpen={isOpen} onClose={onClose} />
+          <Outlet />
+        </Box>
+        <Footer />
+      </Box>
     </Box>
   );
 };
