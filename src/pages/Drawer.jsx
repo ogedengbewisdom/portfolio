@@ -43,7 +43,7 @@ const Drawers = ({ isOpen, onClose }) => {
           >
             {LINKS.map((link, index) => {
               return (
-                <ListItem key={index}>
+                <ListItem key={index} onClick={onClose}>
                   <a href={`/#${link.links}`}>{link.title}</a>
                 </ListItem>
               );
