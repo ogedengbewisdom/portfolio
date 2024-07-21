@@ -189,10 +189,11 @@ const Home = () => {
               I&apos;m a dedicated and awesome Software developer with a year
               experience of working on solving innovative real world problems to
               make the world a better place for everybody to live. I have a
-              passion for learning and sharing my knowledge with others. I
-              collaborate on Innovative and Real life project with an incredible
-              objective towards achieving a life changing results. Now learning
-              web3 and exploring blockchain innovation.
+              passion for learning and sharing my knowledge with others. Highly
+              adapt to both independent and collaborate on Innovative and Real
+              life project with an incredible objective towards achieving a life
+              changing results. Now learning web3 and exploring blockchain
+              innovation.
             </Text>
           </Box>
           <Image
