@@ -186,7 +186,7 @@ const Home = () => {
               // fontStyle={"italic"}
               lineHeight={"35px"}
             >
-              I&apos;m a dedicated and awesome Software developer with a year
+              I&apos;m a dedicated and awesome Software developer with 2 years
               experience of working on solving innovative real world problems to
               make the world a better place for everybody to live. I have a
               passion for learning and sharing my knowledge with others. Highly
