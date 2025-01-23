@@ -22,7 +22,7 @@ const Header = ({ onOpen }) => {
       padding={{ base: "2rem 1rem", md: "2rem" }}
     >
       <Box color={"#FFF"} title="wisdom">
-        <Image src="/weezy.jpg" boxSize={"40px"} borderRadius={"50%"} />
+        <Image src="/scolfield profile picture.png" boxSize={"40px"} borderRadius={"50%"} />
       </Box>
       <ListMotion
         color={"#CCC"}

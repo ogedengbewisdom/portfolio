@@ -133,7 +133,7 @@ const Home = () => {
             fontFamily={"galano grotesque"}
             // fontWeight={800}
           >
-            I&apos;m Ogedengbe Wisdom
+            I&apos;m Wisdom
           </Text>
           <MotionBox px={{ base: "1rem" }}>
             <Text
