@@ -144,7 +144,7 @@ const Home = () => {
               // fontStyle={"italic"}
               fontFamily={"galano grotesque"}
             >
-              Detailed and result-oriented Front-End developer passionate in
+              Detailed and result-oriented Full-Stack developer passionate in
               building pixel-perfect, engaging, user intuitive accessible
               digital experiences.
             </Text>
@@ -246,7 +246,7 @@ const Home = () => {
           mt={{ base: "3rem", xl: "5rem" }}
           px={{ base: "1rem" }}
           display={"flex"}
-          flexDirection={"column"}
+          flexDirection={"column-reverse"}
           gap={"5rem"}
         >
           {PROJECTS.map((project, index) => {
