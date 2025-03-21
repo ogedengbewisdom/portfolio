@@ -30,6 +30,14 @@ export const PROJECTS = [
     tech: `Web`,
     href: `https://sungas.ng/`,
   },
+  {
+    image: "/eswift.png",
+    // icon: SungasLogo,
+    name: "e-swift",
+    description: `e-Swift PropertyMart is a leading digital real estate company with branches in Akure, Lagos and Abuja offering a comprehensive range of services to buyers, sellers, landlords, and tenants through our innovative online platforms.`,
+    tech: `Web`,
+    href: `https://www.eswiftpropertymart.ng/`,
+  },
 ];
 
 export const LINKS = [

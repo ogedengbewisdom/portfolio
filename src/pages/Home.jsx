@@ -144,9 +144,8 @@ const Home = () => {
               // fontStyle={"italic"}
               fontFamily={"galano grotesque"}
             >
-              Detailed and result-oriented Full-Stack developer passionate in
-              building pixel-perfect, engaging, user intuitive accessible
-              digital experiences.
+              Driven by a passion for innovation, I leverage software to solve real-world problems, creating impactful and user-friendly digital experiences.
+        
             </Text>
           </MotionBox>
         </Box>
@@ -283,7 +282,8 @@ const Home = () => {
                     {project.icon ? (
                       <project.icon />
                     ) : (
-                      <Image src="/sungasLogo.png" boxSize={"100px"} />
+                     project.name === 'SunGas' && <Image src="/sungasLogo.png" boxSize={"100px"} /> ||
+                     project.name === 'e-swift' && <Image src="/eswiftlogo.png" boxSize={"100px"} />
                     )}
                     <Text
                       fontSize={"1.5rem"}
